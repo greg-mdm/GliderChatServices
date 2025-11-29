@@ -1,0 +1,12 @@
+case "schedule":
+  addBotMessage(
+    "Wonderful! I'd be happy to help you schedule a conversation with our team.\n\nTo connect you with the right person, could you share a bit about your project and your name?",
+    undefined,
+    false,
+    true // Show project input
+  );
+  break;
+
+case "schedule-details":
+  // This case is now handled by the dual-input component
+  break;
